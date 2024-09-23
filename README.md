@@ -12,6 +12,16 @@ This will offer to forward port and open link in new tab
 flask --app app.py --debug run
 ```
 
+## Link Github 
+* Setup Fine-grained personal access tokens https://github.com/settings/tokens?type=beta
+* Open Terminal in Dev Spaces (top right corner logo with bottom pane)
+* ```git config --global user.email "<your email>"```
+* ```git config --global user.name "<your full name>"```
+* ```git config credential.helper store```
+* ```git push```
+  * provide username
+  * provide password
+
 ## Learn how to use Dev Spaces
 **Note:** The Python code sample uses the **8081** HTTP port.
 
