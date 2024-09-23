@@ -6,6 +6,12 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+## Run Application
+This will offer to forward port and open link in new tab
+```bash
+flask --app app.py --debug run
+```
+
 ## Learn how to use Dev Spaces
 **Note:** The Python code sample uses the **8081** HTTP port.
 
