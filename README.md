@@ -1,5 +1,6 @@
 # Creating an application with a Python code sample
 
+
 ## Install Dependencies
 ```bash
 pip install --upgrade pip
