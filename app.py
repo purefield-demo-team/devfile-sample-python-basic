@@ -2,8 +2,8 @@ from flask import Flask
 import os
 
 app = Flask(__name__)
-deployed_model_name = "datascience-model"
-rest_url = "http://modelmesh-serving.leadership:8008"
+deployed_model_name = "fraud"
+rest_url = "http://modelmesh-serving.redhat:8008"
 infer_url = f"{rest_url}/v2/models/{deployed_model_name}/infer"
 
 import requests
