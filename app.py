@@ -44,7 +44,7 @@ def hello():
     if (prediction[0] <= threshhold):
         fraudulent = 'not fraud'
 
-    return "Hello World and Friends! v1.4 <br/>fraudulent: " + fraudulent + " <br/>prediction: "  + str( prediction[0] )
+    return "Hello World!<br/>fraudulent: " + fraudulent + " <br/>prediction: "  + str( prediction[0] )
 
 if __name__ == '__main__':
     port = os.environ.get('FLASK_PORT') or 8080
